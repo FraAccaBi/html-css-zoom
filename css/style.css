@@ -29,13 +29,16 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 5px;
+    row-gap: 13px;
     margin: 5px 5rem;
 }
-img{
-    max-width: 186px;
-    max-height: 120px;
+.user{
+    width: 186px;
+    height: 120px;
+    color: white;
+    background-image: url("https://i.picsum.photos/id/28/186/120.jpg?hmac=gNprvTKKpoOOOEqf0koVr7AbtpHrZqglq8526fmhheg");
+    text-align: center;
 }
 
 
