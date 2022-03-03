@@ -16,6 +16,9 @@ a{
     display: table;
     clear: both;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /* #endregion common*/
 
 /* #region header*/
@@ -81,6 +84,8 @@ footer{
     color: white;
     justify-content: flex-start;
     align-items: center;
+    height:100%;
+    font-weight: 400;
 }
 
 .cl_70{
@@ -89,6 +94,8 @@ footer{
     color: white;
     justify-content: center;
     align-items: center;
+    height:100%;
+    font-weight: 400;
 }
 .cl_70>a, .cl_15>a{
     color: white;
@@ -104,5 +111,19 @@ footer{
 }
 .fa-angle-up::before{
     font-size: x-small;
+}
+.btn{
+    background-color: #4A4A4A;
+}
+
+.cl_15_left{
+    float: left;
+    width: 15%;
+    color: #B23338;
+    background-color: #4A4A4A;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    font-weight: 900;
 }
 /* #endregion footer*/
