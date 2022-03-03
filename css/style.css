@@ -24,8 +24,8 @@ body{
 /* #region header*/
 header{
     background-color: black;
-    height: 11vh;
-    min-height: 50px;
+    height: 10vh;
+    min-height: 45px;
 }
 .main_header{
     justify-content: flex-end;
@@ -39,7 +39,6 @@ header{
     border-radius: 5px;
     margin: 3px 5px;
 }
-
 /* #endregion header*/
 
 /* #region main*/
@@ -47,6 +46,7 @@ main{
     background-color: black;
     height: 80%;
     min-height: 120px;
+    padding-bottom: 1rem;
 }
 .img_win{
     justify-content: center;
@@ -125,5 +125,8 @@ footer{
     align-items: center;
     height:100%;
     font-weight: 900;
+}
+.fa-video:active{
+    color: red;
 }
 /* #endregion footer*/
