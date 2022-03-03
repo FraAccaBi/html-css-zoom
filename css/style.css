@@ -40,6 +40,10 @@ main{
     background-image: url("https://i.picsum.photos/id/28/186/120.jpg?hmac=gNprvTKKpoOOOEqf0koVr7AbtpHrZqglq8526fmhheg");
     text-align: center;
 }
+.img_text{
+    align-self: end;
+    background-color: #7f7f80cf;
+}
 
 
 /* #endregion main*/
