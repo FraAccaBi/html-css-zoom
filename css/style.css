@@ -7,6 +7,9 @@
 .flex{
     display: flex;
 }
+a{
+    text-decoration: none;
+}
 /* #endregion common*/
 
 /* #region header*/
@@ -15,7 +18,18 @@ header{
     height: 11vh;
     min-height: 50px;
 }
-
+.main_header{
+    justify-content: flex-end;
+    column-gap: 5px;
+}
+.view_options, .view_size{
+    color: white;
+    background-color: #7f7f80cf;
+    padding: 4px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 3px 5px;
+}
 
 /* #endregion header*/
 
