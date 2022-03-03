@@ -9,6 +9,7 @@
 }
 a{
     text-decoration: none;
+    color: white;
 }
 .row:after{
     content: "";
@@ -77,7 +78,11 @@ footer{
 .cl_15{
     float: left;
     width: 15%;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
 }
+
 .cl_70{
     float: left;
     width: 70%;
@@ -85,16 +90,19 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.cl_70>a{
+.cl_70>a, .cl_15>a{
     color: white;
     display: block;
     text-align: center;
     padding: 7px;
 }
-.cl_70>a:active{
+.cl_70>a>i:active{
     color: #4AC701;
 }
 .icons:before {
     font-size: x-large;
+}
+.fa-angle-up::before{
+    font-size: x-small;
 }
 /* #endregion footer*/
