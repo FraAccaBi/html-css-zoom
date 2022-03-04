@@ -116,7 +116,7 @@ footer{
     background-color: #4A4A4A;
 }
 
-.cl_15_left{
+.cl_15_right{
     float: left;
     width: 15%;
     color: #B23338;
@@ -127,6 +127,10 @@ footer{
     font-weight: 900;
 }
 .fa-video:active{
+    color: red;
+}
+.cl_15_right:hover{
+    cursor: pointer;
     color: red;
 }
 /* #endregion footer*/
